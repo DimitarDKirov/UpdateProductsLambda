@@ -1,0 +1,40 @@
+{
+    "Records": [
+        {
+            "AwsRegion": "eu-central-1",
+            "EventName": "ObjectCreated:Put",
+            "EventSource": "aws:s3",
+            "EventTime": "2023-08-19T15:25:46.563Z",
+            "EventVersion": "2.1",
+            "RequestParameters": {
+                "SourceIPAddress": "213.91.236.6"
+            },
+            "ResponseElements": {
+                "x-amz-id-2": "GNMkW/4Pvi/FI90PVcG60jWQG1wlY8nWO6XDukp6EyqiR5+GwKx7LNZ8Z6/MCq9QCkoWoEhqdqFolu9Iz4HBYYujQ1cUS+kg",
+                "x-amz-request-id": "Y5ZYKQJ0D42W1Y5N"
+            },
+            "S3": {
+                "ConfigurationId": "a188f048-538c-4555-b6c4-48ba9215cc42",
+                "Bucket": {
+                    "Name": "dev-bg-products-bucket",
+                    "OwnerIdentity": {
+                        "PrincipalId": "A3JQQXQCTDQP08"
+                    },
+                    "Arn": "arn:aws:s3:::dev-bg-products-bucket"
+                },
+                "Object": {
+                    "Key": "Products.xlsx",
+                    "Size": 8649,
+                    "ETag": "161a523e26e62eaf2727fa854e400a8f",
+                    "VersionId": null,
+                    "Sequencer": "0064E0DEFA834823A4"
+                },
+                "S3SchemaVersion": "1.0"
+            },
+            "UserIdentity": {
+                "PrincipalId": "AWS:AIDAWPPZNO3J3XAZV3YVM"
+            },
+            "GlacierEventData": null
+        }
+    ]
+}
