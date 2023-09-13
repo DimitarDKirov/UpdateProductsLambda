@@ -1,5 +1,5 @@
 <h1>Project configuration steps</h1>
-<h2>Setting up AWS access</h2>
+<h2>Setting up AWS access (can be skipped if already done)</h2>
 
 1. Create an AWS root account.
 2. Creat an IAM user with console and programmatic access via the AWS console with the root account. Make sure to **save** the access and secret keys for the created user.
