@@ -30,6 +30,7 @@
     - Run **cd UpdateProductsLambda**
     - Build project
     - Run **dotnet lambda deploy-function theFunctionName --function-role dev-bg-lambda-role**
+9. Open the published Lambda via the AWS Management console and add an **S3 trigger** in the **Configuration** tab. Trigger should specify S3 bucket created in **AWS infrastructure and project configuration Step 1**.
 
 <h2>Test application</h2>
 
